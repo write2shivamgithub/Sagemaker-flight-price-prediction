@@ -302,7 +302,7 @@ arrival_time = st.time_input("Arrival Time")
 
 duration = st.number_input(
     'Duration (mins):',
-    steps=1
+    step=1
 )
 
 total_stops = st.number_input(
